@@ -144,7 +144,7 @@ nav {
 
 /* Showcase Section */
 .showcase {
-    background: linear-gradient(to right, rgba(0, 0, 0, .6), rgba(0, 0, 0, .6)), url(image/showcase.jpg) no-repeat fixed;
+    background: linear-gradient(to right, rgba(0, 0, 0, .4), rgba(0, 0, 0, .4)), url(image/showcase1.jpg) no-repeat fixed;
     background-position: center;
     background-size: cover;
     height: 100vh;
@@ -377,7 +377,7 @@ nav {
 }
 
 .line-3::after {
-    max-width: 20%;
+    max-width: 70%;
 }
 
 .line-4::after {
@@ -516,7 +516,7 @@ nav {
 }
 
 .contact-detail i {
-    font-size: 1.5rem;
+    font-size: 2.2rem;
     color: #fff
 }
 
@@ -543,7 +543,7 @@ footer {
 }
 
 .footer-inner a {
-    font-size: 2.2rem;
+    font-size: 3.2rem;
     color: #111111;
     font-weight: 600;
 }
@@ -557,7 +557,7 @@ footer {
 .footer-inner li a {
     font-weight: normal;
     padding: 0 1.5rem;
-    font-size: 1.5rem;
+    font-size: 2rem;
     color: #484848;
 }
 
@@ -569,7 +569,7 @@ footer {
 }
 
 .footer-inner li a:hover {
-    color: rgba(0, 0, 0, .4)
+    color: rgba(0, 0, 0, .4);
 }
 
 /* Preloader Section */
