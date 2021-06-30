@@ -4,6 +4,12 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>NGỌC DŨNG Portfolio</title>
+  <!-- <link rel="icon" href=""> -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" integrity="sha512-1cK78a1o+ht2JcaW6g8OXYwqpev9+6GqOkz9xmBN9iUUhIndKtxwILGWYOSibOKjLsEdjyjZvYDq/cZwNeak0w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/gh/creativetimofficial/tailwind-starter-kit/compiled-tailwind.min.css"
+    />
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
 </head>
@@ -99,56 +105,56 @@
     <!-- Projects Section -->
     <section id="projects" class="projects one-page-section">
         <div class="container">
-            <h2>My Projects</h2>
-            <div class="title-line"></div>
+            <h2 data-aos="fade-down" >My Projects</h2>
+            <div data-aos="fade-down" class="title-line"></div>
             <div class="my-projects">
-                <div class="project">   <!-- --------------------PROJECT 1-------------------------- -->
+                <div data-aos="fade-up" class="project">   <!-- --------------------PROJECT 1-------------------------- -->
                     <img src="image/P1.jpg" alt="" width="100%" height="100%"> 
                     <div class="project-detail">
-                        <a class="more" href="https://ngocdung12112000.github.io/QUIZ_ATBM/">MORE</a>
+                        <a class="more" target="_blank" href="https://ngocdung12112000.github.io/QUIZ_ATBM/">MORE</a>
                         <div class="project-title">
                             <h3>PROJECT 1</h3>
                             <p>QUIZZ APP</p>
                         </div>
                     </div>
                 </div>
-                <div class="project"> <!-- --------------------PROJECT 2-------------------------- -->
+                <div data-aos="fade-up" class="project"> <!-- --------------------PROJECT 2-------------------------- -->
                     <img src="image/P2.jpg" alt="" width="100%">
                     <div class="project-detail">
-                        <a class="more" href="https://ngocdung12112000.github.io/shopeeUI/">MORE</a>
+                        <a class="more" target="_blank" href="https://ngocdung12112000.github.io/shopeeUI/">MORE</a>
                         <div class="project-title">
                             <h3>PROJECT 2</h3>
                             <p>SHOPEE UI</p>
                         </div>
                     </div>
                 </div>
-                <div class="project"> <!-- --------------------PROJECT 3-------------------------- -->
+                <div data-aos="fade-up" class="project"> <!-- --------------------PROJECT 3-------------------------- -->
                     <img src="image/P3.jpg" alt="" width="100%">
                     <div class="project-detail">
-                        <a class="more" href="https://ngocdung12112000.github.io/Love-Travel/">MORE</a>
+                        <a class="more" target="_blank" href="https://ngocdung12112000.github.io/Love-Travel/">MORE</a>
                         <div class="project-title">
                             <h3>PROJECT 3</h3>
                             <p>LANDING PAGE (Love Travel)</p>
                         </div>
                     </div>
                 </div>
-                <div class="project"> <!-- --------------------PROJECT 4-------------------------- -->
+                <div data-aos="fade-up" class="project"> <!-- --------------------PROJECT 4-------------------------- -->
                     <img src="image/P4.jpg" alt="" width="100%">
                     <div class="project-detail">
-                        <a class="more" href="">MORE</a>
+                        <a class="more" target="_blank" href="https://ngocdung12112000.github.io/canifa-fashion/index.html">MORE</a>
                         <div class="project-title">
                             <h3>PROJECT 4</h3>
-                            <p>project</p>
+                            <p class="uppercase">Canifa fashion</p>
                         </div>
                     </div>
                 </div>
-                <div class="project"> <!-- --------------------PROJECT 5-------------------------- -->
+                <div data-aos="fade-up" class="project"> <!-- --------------------PROJECT 5-------------------------- -->
                     <img src="image/P5.jpg" alt="" width="100%">
                     <div class="project-detail">
-                        <a class="more" href="">MORE</a>
+                        <a class="more" target="_blank" href="https://ngocdung12112000.github.io/gym-website/landing.html">MORE</a>
                         <div class="project-title">
                             <h3>PROJECT 5</h3>
-                            <p>project</p>
+                            <p>GYM WEBSITE</p>
                         </div>
                     </div>
                 </div>
@@ -160,9 +166,9 @@
     <!-- Contact section -->
     <section id="contact" class="contact one-page-section">
         <div class="container">
-            <h2>Contact me</h2>
-            <div class="title-line"></div>
-            <div class="contact-inner">
+            <h2 data-aos="zoom-out-down" >Contact me</h2>
+            <div data-aos="zoom-out-down" class="title-line"></div>
+            <div data-aos="zoom-out-right" class="contact-inner">
                 <div class="contact-detail">
                     <span> <i class="fas fa-phone-square"></i> </span>
                     <div class="detail">
@@ -205,6 +211,14 @@
 </body>
 <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
 <script src="index.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js" integrity="sha512-A7AYk1fGKX6S2SsHywmPkrnzTZHrgiVT7GcQkLGDe2ev0aWb8zejytzS8wjo7PGEXKqJOrjQ4oORtnimIRZBtw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script> 
+    AOS.init({
+      delay: 200,
+      duration: 1200,
+      once: false
+    })
+</script>
 </html>
 
 
